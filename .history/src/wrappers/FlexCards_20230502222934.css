@@ -1,0 +1,16 @@
+/* @media (min-width: 550px) {
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: space-evenly;
+        align-items: center;
+        gap:1%;
+    }
+} */
+
+@media (min-width: 550px) {
+    .row{
+        display: flex
+    }
+}

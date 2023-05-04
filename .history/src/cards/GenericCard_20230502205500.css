@@ -1,0 +1,49 @@
+/* figure{
+    margin: 0;
+    padding: 0;
+}
+figcaption {
+    background-color: #001219;
+    color: #ffff;
+    padding: 1rem;
+}
+
+
+figure > div {
+    background-image: url('https://plus.unsplash.com/premium_photo-1674939148262-54e2707ec176?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    min-height: 150px;
+}
+
+@media (min-width: 550px) {
+    figure{
+        margin: 0;
+        padding: 0;
+        flex-basis: 48%;
+    }
+}
+
+@media (min-width: 768px) {
+    figure{
+        margin: 0;
+        padding: 0;
+        flex-basis: 22%;
+    }
+} */
+
+figure{
+    margin: 0;
+    padding
+}
+
+@media (min-wdth:500px) {
+    figure{
+        flex-basis: 48%;
+    }
+    
+}
+@media (min-width: 768px) {
+    figure{
+        flex-basis: 22%;
+
+    }
+}

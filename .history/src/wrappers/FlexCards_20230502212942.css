@@ -1,0 +1,9 @@
+
+@media (min-width: 550px) {
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space;
+        gap:4%;
+    }
+}

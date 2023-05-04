@@ -1,0 +1,7 @@
+export const colors = {
+    primarycolor: #6c5ce7;
+    primaryheavy: #5d4aec;
+    primarylight: #897dec;
+    textonprimary: #ffffff;
+    primarybg: #eceaff;
+}

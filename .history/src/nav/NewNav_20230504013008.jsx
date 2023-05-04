@@ -1,0 +1,31 @@
+import styled from 'styled-components'
+export default function NewNav() {
+  return (
+    <div className="topnav">
+      <a className="active" href="#home">
+        Home
+      </a>
+      <a>
+        <form action="">
+          <label
+            htmlFor="categories"
+            onSubmit={(e) => {
+              e.preventDefault()
+            }}
+          >
+            <select name="categories" id="categories">
+              <option value="select">categories</option>
+              <option value="cat1">cat1</option>
+              <option value="cat2">cat2</option>
+              <option value="cat3">cat3</option>
+              <option value="cat4">cat4</option>
+            </select>
+          </label>
+        </form>
+      </a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <input type="text" placeholder="Search.." />
+    </div>
+  )
+}
